@@ -1,0 +1,46 @@
+2019-08-06 10:03:37.565 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - Starting TcpserviceApplication on zhouwenyu with PID 8592 (F:\JavaProject\tcpservice\target\classes started by Administrator in F:\JavaProject\tcpservice)
+2019-08-06 10:03:37.570 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - No active profile set, falling back to default profiles: default
+2019-08-06 10:03:39.418 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-06 10:03:39.419 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-06 10:03:39.542 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-06 10:03:39.717 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-06 10:03:39.903 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-08-06 10:03:40.079 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-06 10:03:40.152 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-06 10:03:40.154 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-06 10:03:40.313 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-06 10:03:40.466 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-06 10:03:41.908 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - Started TcpserviceApplication in 5.394 seconds (JVM running for 6.8)
+2019-08-06 10:03:41.936 [main] INFO  com.polycis.tcpservice.tcp.DiscardServer - 运行tcp端口：502
+2019-08-06 10:03:46.162 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.ChildChannelHandler - 信息：有一TCP客户端链接到本服务端 Name:192.168.10.88 IP:192.168.10.88 Port:502
+2019-08-06 10:03:48.689 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 传输内容是
+2019-08-06 10:03:48.690 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 646f6e27742062652063617265
+2019-08-06 10:03:48.690 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 64 6f 6e 27 74 20 62 65 20 63 61 72 65
+2019-08-06 10:03:48.690 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - don't be care
+2019-08-06 10:53:41.170 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 传输内容是
+2019-08-06 10:53:41.171 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 646f6e27742062652063617265
+2019-08-06 10:53:41.171 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 64 6f 6e 27 74 20 62 65 20 63 61 72 65
+2019-08-06 10:53:41.171 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - don't be care
+2019-08-06 10:54:23.310 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - Starting TcpserviceApplication on zhouwenyu with PID 12012 (F:\JavaProject\tcpservice\target\classes started by Administrator in F:\JavaProject\tcpservice)
+2019-08-06 10:54:23.315 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - No active profile set, falling back to default profiles: default
+2019-08-06 10:54:25.128 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-06 10:54:25.129 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-06 10:54:25.249 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-06 10:54:25.414 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-06 10:54:25.563 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-08-06 10:54:25.722 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-06 10:54:25.790 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-06 10:54:25.791 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-06 10:54:25.937 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-06 10:54:26.066 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-06 10:54:27.379 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - Started TcpserviceApplication in 5.174 seconds (JVM running for 6.722)
+2019-08-06 10:54:27.412 [main] INFO  com.polycis.tcpservice.tcp.DiscardServer - 运行tcp端口：502
+2019-08-06 10:54:37.584 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.ChildChannelHandler - 信息：有一TCP客户端链接到本服务端 Name:192.168.10.88 IP:192.168.10.88 Port:502
+2019-08-06 10:54:38.813 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 传输内容是
+2019-08-06 10:54:38.813 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 646f6e27742062652063617265
+2019-08-06 10:54:38.814 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 64 6f 6e 27 74 20 62 65 20 63 61 72 65
+2019-08-06 10:54:38.814 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - don't be care

@@ -1,0 +1,4 @@
+2019-09-06 14:51:08.679 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - Starting TcpserviceApplication on zhouwenyu with PID 11228 (F:\JavaProject\tcpservice\target\classes started by Administrator in F:\JavaProject\tcpservice)
+2019-09-06 14:51:08.684 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - No active profile set, falling back to default profiles: default
+2019-09-06 14:51:10.913 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-06 14:51:10.914 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]

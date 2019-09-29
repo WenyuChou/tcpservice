@@ -1,0 +1,21 @@
+2019-08-06 11:25:04.470 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - Starting TcpserviceApplication on zhouwenyu with PID 17440 (F:\JavaProject\tcpservice\target\classes started by Administrator in F:\JavaProject\tcpservice)
+2019-08-06 11:25:04.475 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - No active profile set, falling back to default profiles: default
+2019-08-06 11:25:06.227 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-06 11:25:06.227 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-06 11:25:06.345 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-06 11:25:06.503 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-06 11:25:06.647 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-08-06 11:25:06.812 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-06 11:25:06.879 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-06 11:25:06.880 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-06 11:25:07.014 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-06 11:25:07.157 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-06 11:25:08.500 [main] INFO  com.polycis.tcpservice.TcpserviceApplication - Started TcpserviceApplication in 5.32 seconds (JVM running for 6.826)
+2019-08-06 11:25:08.532 [main] INFO  com.polycis.tcpservice.tcp.DiscardServer - 运行tcp端口：502
+2019-08-06 11:25:10.442 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.ChildChannelHandler - 信息：有一TCP客户端链接到本服务端 Name:192.168.10.88 IP:192.168.10.88 Port:502
+2019-08-06 11:25:11.927 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 传输内容是
+2019-08-06 11:25:11.928 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 646f6e27742062652063617265
+2019-08-06 11:25:11.928 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - 64 6f 6e 27 74 20 62 65 20 63 61 72 65
+2019-08-06 11:25:11.928 [nioEventLoopGroup-3-1] INFO  com.polycis.tcpservice.tcp.DiscardServerHandler - don't be care

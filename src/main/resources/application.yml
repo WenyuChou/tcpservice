@@ -1,0 +1,37 @@
+server:
+  port: 8077
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: tcp-service
+  jackson:
+#设置时间格式，时差
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    tomcat:
+      max-idle: 10
+      max-wait: 50000
+      min-idle: 50
+      initial-size: 5
+    url: jdbc:mysql://47.93.172.8:3306/polycis_ns_send?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: ceshi
+    password: gaodeyang
+
+#日志输出配置
+logging:
+#  file: logs/spring-boot-logging.log
+  level:
+    org:
+      springframework: WARN
+    spring:
+      springboot:
+        dao: error
+    com:
+      polycis:
+        qsjd:
+          dao: error
+
